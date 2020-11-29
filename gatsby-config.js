@@ -5,7 +5,7 @@ module.exports = {
       name: ` Suhas Waydande`,
       summary: `From India.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `My Blog Site`,
     // siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`
   },
   plugins: [

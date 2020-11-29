@@ -1,6 +1,6 @@
 ---
 title: C Basics. part 1.1.
-date: "2015-05-01T22:12:03.284Z"
+date: "2020-11-28T22:20:03.284Z"
 description: "C Basics. part 1.1"
 ---
 
