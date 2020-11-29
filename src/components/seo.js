@@ -35,7 +35,7 @@ const SEO = ({ description, lang, meta, title }) => {
       htmlAttributes={{
         lang,
       }}
-      title={title}
+      title={"Suhas Waydande"}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {

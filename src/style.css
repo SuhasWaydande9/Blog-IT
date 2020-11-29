@@ -10,8 +10,9 @@
   --maxWidth-2xl: 42rem;
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
+  --maxWidth-5xl: 62rem;
   --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-2xl);
+  --maxWidth-wrapper: var(--maxWidth-5xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -85,6 +86,17 @@ body {
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.SocialLinks p {
+  background-image: url("../content/assets/Github.png");
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: contain;
 }
 
 hr {
@@ -183,6 +195,12 @@ ol li {
   margin-bottom: calc(var(--spacing-8) / 2);
 }
 
+.post-list-item {
+  padding: 0px 0px 20px 20px;
+  border-bottom: 1px solid #c3c3c3;
+  /* border-left: 4px solid #d0d0d0; */
+}
+
 li > p {
   margin-bottom: calc(var(--spacing-8) / 2);
 }
@@ -252,6 +270,22 @@ a:focus {
 
 .global-header {
   margin-bottom: var(--spacing-12);
+}
+
+.Navbar {
+  /* width: 100vw; */
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  left: 0px;
+  width: 100%;
+  padding: 0px 10%;
+  background-color: white;
+  align-items: center;
+}
+
+#LOGO h1 {
+  color: #ff7b7b;
 }
 
 .main-heading {
